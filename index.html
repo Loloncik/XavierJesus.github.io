@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Portfolio - Domingos Xavier</title>
+
+<style>
+body{
+font-family: Arial;
+margin:0;
+background:#0f172a;
+color:white;
+}
+
+header{
+text-align:center;
+padding:80px;
+background:#1e293b;
+}
+
+section{
+padding:60px;
+max-width:900px;
+margin:auto;
+}
+
+h1,h2{
+color:#38bdf8;
+}
+
+.card{
+background:#1e293b;
+padding:20px;
+margin:20px 0;
+border-radius:10px;
+}
+
+button{
+padding:12px 20px;
+border:none;
+background:#38bdf8;
+color:black;
+font-weight:bold;
+border-radius:5px;
+cursor:pointer;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Domingos Xavier Azevedo Jesus</h1>
+<p>Apprenti Informaticien – Infrastructure & Support IT</p>
+<button onclick="scrollToSection()">Voir mon profil</button>
+</header>
+
+<section id="about">
+<h2>À propos</h2>
+<p>
+Apprenti informaticien au CPNV avec un intérêt pour l'infrastructure informatique,
+le support technique et la résolution de problèmes systèmes.
+</p>
+</section>
+
+<section>
+<h2>Compétences</h2>
+
+<div class="card">
+Support informatique
+</div>
+
+<div class="card">
+Diagnostic et réparation de machines
+</div>
+
+<div class="card">
+Développement web
+</div>
+
+<div class="card">
+Bases de données
+</div>
+
+<div class="card">
+Architecture logicielle
+</div>
+
+</section>
+
+<section>
+<h2>Expérience</h2>
+
+<div class="card">
+<b>Stage support informatique – GYB Payerne</b>
+<p>
+Support technique aux élèves<br>
+Maintenance des salles informatiques<br>
+Diagnostic de problèmes machines
+</p>
+</div>
+
+</section>
+
+<section>
+<h2>Contact</h2>
+
+<p>Email : xavierazevedo50@gmail.com</p>
+<p>Téléphone : 078 623 41 60</p>
+
+</section>
+
+<script>
+function scrollToSection(){
+document.getElementById("about").scrollIntoView({behavior:"smooth"});
+}
+</script>
+
+</body>
+</html>
